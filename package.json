@@ -1,0 +1,12 @@
+{
+  "name": "racquet-finder-final",
+  "version": "1.0.0",
+  "description": "**Sistema Inteligente de Recomendação de Equipamentos de Tênis**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
