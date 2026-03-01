@@ -1,0 +1,219 @@
+{
+  "questionnaireData": [
+    {
+      "id": 1,
+      "question": "Qual é o seu nível de jogo atual?",
+      "tooltip": "Seu nível técnico influencia diretamente o tipo de corda mais adequado",
+      "options": [
+        {
+          "text": "Iniciante (Começando a jogar)",
+          "value": "Beginner"
+        },
+        {
+          "text": "Intermediário (Jogo recreativo regular)",
+          "value": "Intermediate"
+        },
+        {
+          "text": "Avançado (Competições amadoras)",
+          "value": "Advanced"
+        },
+        {
+          "text": "Profissional/Semi-profissional",
+          "value": "Professional"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual é o seu estilo de jogo predominante?",
+      "tooltip": "Diferentes estilos se beneficiam de características específicas das cordas",
+      "options": [
+        {
+          "text": "Potência (Golpes fortes do fundo)",
+          "value": "Power"
+        },
+        {
+          "text": "Controle (Precisão e colocação)",
+          "value": "Control"
+        },
+        {
+          "text": "Spin/Topspin (Muita rotação)",
+          "value": "Spin"
+        },
+        {
+          "text": "All-court (Jogo variado)",
+          "value": "All-court"
+        },
+        {
+          "text": "Toque/Finesse (Jogo técnico)",
+          "value": "Touch"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Com que frequência você quebra cordas?",
+      "tooltip": "A frequência de quebra indica se você precisa priorizar durabilidade",
+      "options": [
+        {
+          "text": "Nunca ou raramente (mais de 6 meses)",
+          "value": "Never"
+        },
+        {
+          "text": "Ocasionalmente (3-6 meses)",
+          "value": "Occasionally"
+        },
+        {
+          "text": "Regularmente (1-3 meses)",
+          "value": "Regularly"
+        },
+        {
+          "text": "Frequentemente (menos de 1 mês)",
+          "value": "Frequently"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Você tem ou já teve problemas no braço/cotovelo?",
+      "tooltip": "Histórico de lesões requer cordas mais confortáveis e arm-friendly",
+      "options": [
+        {
+          "text": "Não, nunca tive problemas",
+          "value": "No_issues"
+        },
+        {
+          "text": "Ocasionalmente sinto desconforto",
+          "value": "Occasional_discomfort"
+        },
+        {
+          "text": "Já tive tennis elbow ou tendinite",
+          "value": "Previous_injury"
+        },
+        {
+          "text": "Tenho problemas crônicos no braço",
+          "value": "Chronic_issues"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Qual característica é mais importante para você?",
+      "tooltip": "Priorize a característica que mais impacta seu jogo",
+      "options": [
+        {
+          "text": "Potência (mais velocidade na bola)",
+          "value": "Power"
+        },
+        {
+          "text": "Controle (precisão e colocação)",
+          "value": "Control"
+        },
+        {
+          "text": "Spin (rotação e efeito)",
+          "value": "Spin"
+        },
+        {
+          "text": "Conforto (proteção do braço)",
+          "value": "Comfort"
+        },
+        {
+          "text": "Durabilidade (não quebrar)",
+          "value": "Durability"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Qual o seu orçamento para cordas?",
+      "tooltip": "O preço varia muito entre tipos de corda, de R$30 a R$400 por encordoamento",
+      "options": [
+        {
+          "text": "Econômico (até R$50)",
+          "value": "Budget"
+        },
+        {
+          "text": "Moderado (R$50-150)",
+          "value": "Moderate"
+        },
+        {
+          "text": "Alto (R$150-300)",
+          "value": "High"
+        },
+        {
+          "text": "Premium (acima de R$300)",
+          "value": "Premium"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Com que frequência você joga tênis?",
+      "tooltip": "A frequência de jogo afeta a escolha entre durabilidade e performance",
+      "options": [
+        {
+          "text": "1-2 vezes por semana (recreativo)",
+          "value": "Recreational"
+        },
+        {
+          "text": "3-4 vezes por semana (regular)",
+          "value": "Regular"
+        },
+        {
+          "text": "5-6 vezes por semana (intenso)",
+          "value": "Intensive"
+        },
+        {
+          "text": "Todos os dias (profissional)",
+          "value": "Daily"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Que tipo de swing você tem?",
+      "tooltip": "O tipo de swing influencia na escolha entre cordas que geram ou controlam potência",
+      "options": [
+        {
+          "text": "Swing lento/compacto",
+          "value": "Slow"
+        },
+        {
+          "text": "Swing moderado",
+          "value": "Moderate"
+        },
+        {
+          "text": "Swing rápido/longo",
+          "value": "Fast"
+        },
+        {
+          "text": "Swing muito agressivo",
+          "value": "Aggressive"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Você já usou cordas de poliéster antes?",
+      "tooltip": "Experiência prévia com poliéster ajuda a determinar tolerância à rigidez",
+      "options": [
+        {
+          "text": "Nunca usei, só multifilamento/nylon",
+          "value": "Never_poly"
+        },
+        {
+          "text": "Já experimentei, mas achei muito rígida",
+          "value": "Tried_too_stiff"
+        },
+        {
+          "text": "Uso ocasionalmente poliéster",
+          "value": "Occasional_poly"
+        },
+        {
+          "text": "Sempre uso poliéster",
+          "value": "Always_poly"
+        }
+      ]
+    }
+  ]
+}

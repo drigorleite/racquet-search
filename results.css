@@ -1,0 +1,218 @@
+/* ==========================================================================
+   RESULTS SECTION — REWORKED FOR UX & PSYCHOLOGY (no color changes)
+   ========================================================================== */
+
+/* Small helpers */
+:root {
+  --results-max-width: 1200px;
+  --card-min: 260px; /* responsive card min width */
+  --hit-zone: 12px;  /* extra padding for touch targets */
+  --header-gap: var(--space-4);
+}
+
+/* Container */
+.results {
+  padding: clamp(1.25rem, 2.5vw, var(--space-20)) var(--space-6);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  box-sizing: border-box;
+}
+
+.results-container {
+  width: 100%;
+  max-width: var(--results-max-width);
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-rows: auto 1fr auto; /* header / content / actions area */
+  gap: var(--space-8);
+}
+
+/* Header rewritten as a 3-column grid to truly center the title */
+.results-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto; /* back / title / (optional) actions */
+  align-items: center;
+  gap: var(--header-gap);
+  margin-bottom: var(--space-6);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: calc(var(--space-4) / 2) 0;
+  background: transparent; /* keep colors intact */
+  z-index: 10;
+  backdrop-filter: none; /* don't tweak colors */
+}
+
+/* Back button: larger hit area (Fitts' law) */
+.results-back {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--hit-zone) + 6px);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform .16s ease, box-shadow .16s ease;
+}
+.results-back:active { transform: translateY(1px); }
+.results-back:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Title section: centered visually and allowed to wrap gracefully */
+.results-title-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: 0 var(--space-4);
+  min-width: 0; /* prevents overflow with long titles */
+}
+
+.results-title {
+  font-size: clamp(1.25rem, 2.4vw, var(--text-4xl));
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  line-height: 1.05;
+  text-wrap: balance;
+}
+
+.results-subtitle {
+  font-size: clamp(.95rem, 1.2vw, var(--text-lg));
+  color: var(--color-text-secondary);
+  margin: 0;
+  max-width: 68ch; /* improves readability */
+  text-align: center;
+  opacity: .95;
+}
+
+/* Loading / empty states: narrower, scannable */
+.results-loading {
+  text-align: center;
+  padding: var(--space-12) var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+  justify-content: center;
+}
+
+.results-loading h3 {
+  font-size: clamp(1.1rem, 1.8vw, var(--text-2xl));
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.results-loading p {
+  color: var(--color-text-secondary);
+  font-size: clamp(.95rem, 1.1vw, var(--text-lg));
+  margin: 0;
+  max-width: 60ch;
+}
+
+/* Grid: responsive, cards form, visual grouping (Gestalt) */
+.results-grid {
+  display: grid;
+  gap: var(--space-8);
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-min), 1fr));
+  align-items: start;
+  align-content: start;
+  width: 100%;
+  margin-bottom: var(--space-8);
+}
+
+/* Generic result card suggestions — useful even if your cards are custom */
+.result-card,
+.results-grid > * {
+  background: var(--color-surface, transparent);
+  border-radius: 12px;
+  padding: var(--space-4);
+  box-sizing: border-box;
+  transition: transform .18s cubic-bezier(.2,.9,.25,1), box-shadow .18s ease;
+  will-change: transform;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  justify-content: space-between;
+}
+
+/* subtle elevation on hover/focus to show affordance */
+.result-card:hover,
+.result-card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(11, 13, 14, 0.06);
+}
+
+/* Actions grouping (Hick's law -> fewer choices, clearer CTA) */
+.results-actions {
+  display: flex;
+  gap: var(--space-4);
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-4) 0;
+  flex-wrap: wrap;
+}
+
+/* Larger, consistent hit targets for buttons/links inside actions */
+.results-actions a,
+.results-actions button {
+  padding: calc(var(--hit-zone) + 6px) var(--space-4);
+  border-radius: 10px;
+  min-width: 140px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform .12s ease, box-shadow .12s ease;
+}
+.results-actions a:focus-visible,
+.results-actions button:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Make sure content cannot be occluded by sticky header on small screens */
+.results-container > *:last-child {
+  margin-bottom: clamp(1rem, 2vh, var(--space-8));
+}
+
+/* Responsiveness tweaks */
+@media (max-width: 720px) {
+  .results {
+    padding: var(--space-8) var(--space-4);
+  }
+  .results-header {
+    grid-template-columns: auto 1fr;
+    gap: var(--space-3);
+    align-items: center;
+  }
+  .results-subtitle {
+    font-size: .95rem;
+  }
+  .results-grid {
+    gap: var(--space-6);
+  }
+  .results-back { padding: 10px; } /* easier thumb target */
+}
+
+/* Respect user motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .result-card,
+  .results-back,
+  .results-actions a,
+  .results-actions button {
+    transition: none !important;
+    transform: none !important;
+  }
+}

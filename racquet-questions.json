@@ -1,0 +1,126 @@
+{
+  "questionnaireData": [
+    {
+      "id": "level",
+      "question": "Qual é o seu nível de experiência com tênis?",
+      "tooltip": "'Iniciante' = nunca fez aulas ou está começando. 'Avançado' = compete regularmente e tem golpes consistentes.",
+      "options": [
+        { "text": "Iniciante / Nunca joguei", "value": "Beginner" },
+        { "text": "Intermediário", "value": "Intermediate" },
+        { "text": "Avançado / Competidor", "value": "Advanced" }
+      ],
+      "module": "Player Profile",
+      "weight": 0.22,
+      "required": true
+    },
+    {
+      "id": "ageRange",
+      "question": "Qual sua faixa etária?",
+      "tooltip": "A idade influencia a necessidade de conforto e potência da raquete.",
+      "options": [
+        { "text": "Júnior (até 17 anos)", "value": "Junior" },
+        { "text": "Adulto (18-49 anos)", "value": "Adult" },
+        { "text": "Sênior (50+ anos)", "value": "Senior" }
+      ],
+      "module": "Player Profile",
+      "weight": 0.08,
+      "required": true
+    },
+    {
+      "id": "physicality",
+      "question": "Qual opção melhor descreve seu porte físico?",
+      "tooltip": "Sua força física ajuda a determinar o peso ideal da raquete para você.",
+      "options": [
+        { "text": "Esguio / Leve", "value": "Light" },
+        { "text": "Médio / Atlético", "value": "Athletic" },
+        { "text": "Forte / Pesado", "value": "Strong" }
+      ],
+      "module": "Player Profile",
+      "weight": 0.10,
+      "required": true
+    },
+    {
+      "id": "swingStyle",
+      "question": "Como você descreveria o movimento do seu golpe principal (swing)?",
+      "tooltip": "Um swing longo e rápido gera sua própria potência. Um swing curto e compacto precisa de mais ajuda da raquete.",
+      "options": [
+        { "text": "Longo e Rápido", "value": "Fast-Full" },
+        { "text": "Médio e Fluido", "value": "Medium-Paced" },
+        { "text": "Curto e Compacto", "value": "Short-Compact" }
+      ],
+      "module": "Play Style",
+      "weight": 0.18,
+      "required": true
+    },
+    {
+      "id": "strokeType",
+      "question": "Qual o tipo de efeito predominante nos seus golpes?",
+      "tooltip": "Isso nos ajuda a determinar o padrão de cordas ideal para você.",
+      "options": [
+        { "text": "Topspin Pesado", "value": "Topspin" },
+        { "text": "Golpes mais Retos (Flat)", "value": "Flat" },
+        { "text": "Variado / Uso muito Slice", "value": "Varied" }
+      ],
+      "module": "Play Style",
+      "weight": 0.10,
+      "required": true
+    },
+    {
+      "id": "backhand",
+      "question": "Qual tipo de backhand (esquerda) você utiliza?",
+      "tooltip": "O backhand de uma mão geralmente se beneficia de raquetes mais manobráveis e com bom 'feel'.",
+      "options": [
+        { "text": "Com uma mão", "value": "One-handed" },
+        { "text": "Com duas mãos", "value": "Two-handed" },
+        { "text": "Ainda estou desenvolvendo / Não sei", "value": "Any" }
+      ],
+      "module": "Play Style",
+      "weight": 0.05,
+      "required": true
+    },
+    {
+      "id": "commonMiss",
+      "question": "Quando você erra uma bola durante uma troca, qual é o erro mais comum?",
+      "tooltip": "Isso indica se você precisa de mais controle, potência ou estabilidade.",
+      "options": [
+        { "text": "A bola vai para fora (muito longa)", "value": "MissLong" },
+        { "text": "A bola fica na rede (muito curta)", "value": "MissNet" },
+        { "text": "A bola vai para os lados (sem direção)", "value": "MissWide" },
+        { "text": "Não tenho um erro padrão / Não sei", "value": "Any" }
+      ],
+      "module": "Play Style",
+      "weight": 0.12,
+      "required": true
+    },
+    {
+      "id": "feelWeights",
+      "question": "O que você mais valoriza na sensação da raquete? (Ajuste a importância)",
+      "tooltip": "Use os sliders para indicar a importância relativa de cada atributo. Valores 1-5. Não precisa somar 100 — nós vamos normalizar.",
+      "type": "sliderGroup",
+      "module": "Feel Preferences",
+      "attributes": [
+        { "key": "Comfort", "label": "Conforto", "min": 1, "max": 5, "default": 3 },
+        { "key": "Stability", "label": "Estabilidade", "min": 1, "max": 5, "default": 3 },
+        { "key": "Maneuverability", "label": "Manobrabilidade", "min": 1, "max": 5, "default": 3 },
+        { "key": "Power", "label": "Potência", "min": 1, "max": 5, "default": 3 },
+        { "key": "Control", "label": "Controle", "min": 1, "max": 5, "default": 3 }
+      ],
+      "weight": 0.12,
+      "required": true
+    }
+    ,
+    {
+      "id": "injuries",
+      "question": "Você tem ou já teve dores/lesões no braço ao jogar tênis?",
+      "options": [
+        { "text": "Não, nunca tive problemas", "value": "None" },
+        { "text": "Sim, no cotovelo (Tennis Elbow)", "value": "Elbow" },
+        { "text": "Sim, no ombro ou punho", "value": "Shoulder-Wrist" },
+        { "text": "Sim, mas não sei identificar", "value": "Any-Pain" }
+      ],
+      "module": "Health",
+      "weight": 0.05,
+      "required": true
+    }
+  ]
+}

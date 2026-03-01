@@ -1,0 +1,24 @@
+/* ==========================================================================
+   STRING SPECIFIC STYLES
+   ========================================================================== */
+
+.string-brand-logo {
+  /* --- NOVO: Posicionamento absoluto --- */
+  position: absolute;
+  top: var(--space-6);
+  right: var(--space-6);
+  /* --- FIM NOVO --- */
+  width: 60px; /* Reduzido de 80px */
+  height: 60px; /* Reduzido de 80px */
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-lg);
+  font-weight: var(--font-weight-bold);
+  color: white;
+  /* flex-shrink: 0; REMOVIDO */
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+/* ... (o restante do arquivo permanece igual) ... */

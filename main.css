@@ -1,0 +1,22 @@
+@import url(./base/about.css);
+@import url(./base/contact.css);
+@import url(./base/footer.css);
+@import url(./base/nav-header.css);
+@import url(./base/reset-base.css);
+@import url(./base/responsive.css);
+
+@import url(./components/buttons.css);
+@import url(./effects/animations-effects.css);
+@import url(./effects/loading-screen.css);
+
+@import url(./layout/equipment-tabs.css);
+@import url(./layout/questionnaire.css);
+@import url(./layout/racket-cards.css);
+@import url(./layout/results.css);
+@import url(./layout/string-specific.css);
+
+@import url(./sections/brands.css);
+@import url(./sections/features.css);
+@import url(./sections/hero.css);
+@import url(./sections/main-layout.css);
+@import url(./sections/statistics.css);

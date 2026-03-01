@@ -1,0 +1,2534 @@
+{
+  "racketsData": [
+    {
+      "id": 31,
+      "name": "Pro Staff 97 v14",
+      "brand": "Wilson",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 65,
+      "headSize": 97,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.4,
+      "control": 0.9,
+      "spin": 0.6,
+      "maneuverability": 0.6,
+      "feel": 0.8,
+      "stability": 0.8,
+      "comfort": 0.6,
+      "durability": 0.8,
+      "forgiveness": 0.3,
+      "description": "Uma raquete clássica focada em controle e precisão para jogadores avançados com golpes planos.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 32,
+      "name": "Pro Staff 97L v14",
+      "brand": "Wilson",
+      "weight": 290,
+      "balance": "Head-light",
+      "stiffness": 64,
+      "headSize": 97,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.5,
+      "control": 0.8,
+      "spin": 0.6,
+      "maneuverability": 0.7,
+      "feel": 0.7,
+      "stability": 0.7,
+      "comfort": 0.65,
+      "durability": 0.8,
+      "forgiveness": 0.4,
+      "description": "Versão mais leve da Pro Staff, oferece controle com mais manobrabilidade para intermediários e avançados.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 33,
+      "name": "Pro Staff 97UL v14",
+      "brand": "Wilson",
+      "weight": 270,
+      "balance": "Head-light",
+      "stiffness": 63,
+      "headSize": 97,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.6,
+      "control": 0.7,
+      "spin": 0.6,
+      "maneuverability": 0.8,
+      "feel": 0.7,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.7,
+      "forgiveness": 0.5,
+      "description": "A Pro Staff mais leve, ideal para iniciantes e jovens que buscam sensibilidade e controle fácil.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 34,
+      "name": "Pure Strike 98 16x19 (2024)",
+      "brand": "Babolat",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 66,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.6,
+      "control": 0.8,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.75,
+      "stability": 0.75,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.5,
+      "description": "Equilíbrio de controle e spin para jogadores que atacam a bola com força e buscam sensibilidade.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 35,
+      "name": "Pure Strike 98 18x20 (2024)",
+      "brand": "Babolat",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 65,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat"
+      ],
+      "priceRange": 3,
+      "power": 0.5,
+      "control": 0.9,
+      "spin": 0.6,
+      "maneuverability": 0.6,
+      "feel": 0.8,
+      "stability": 0.8,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.4,
+      "description": "Máximo controle e feedback para jogadores avançados que valorizam a precisão e a conexão com a bola.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 36,
+      "name": "Pure Strike 100 (2024)",
+      "brand": "Babolat",
+      "weight": 300,
+      "balance": "Even",
+      "stiffness": 67,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "All-court",
+        "Control"
+      ],
+      "priceRange": 2,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.7,
+      "stability": 0.7,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Uma raquete versátil que oferece um bom equilíbrio de potência, controle e spin para o jogador moderno.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 37,
+      "name": "Prestige Pro 2024",
+      "brand": "Head",
+      "weight": 320,
+      "balance": "Head-light",
+      "stiffness": 61,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat"
+      ],
+      "priceRange": 3,
+      "power": 0.4,
+      "control": 0.95,
+      "spin": 0.5,
+      "maneuverability": 0.5,
+      "feel": 0.9,
+      "stability": 0.9,
+      "comfort": 0.7,
+      "durability": 0.8,
+      "forgiveness": 0.3,
+      "description": "Para o jogador avançado que busca controle absoluto e sensibilidade excepcional.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 38,
+      "name": "Prestige Tour 2024",
+      "brand": "Head",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 62,
+      "headSize": 95,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.45,
+      "control": 0.9,
+      "spin": 0.5,
+      "maneuverability": 0.5,
+      "feel": 0.9,
+      "stability": 0.85,
+      "comfort": 0.7,
+      "durability": 0.8,
+      "forgiveness": 0.25,
+      "description": "Controle extremo e feedback direto para o tenista experiente que exige precisão.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 39,
+      "name": "Prestige MP 2024",
+      "brand": "Head",
+      "weight": 310,
+      "balance": "Head-light",
+      "stiffness": 62,
+      "headSize": 99,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.5,
+      "control": 0.85,
+      "spin": 0.6,
+      "maneuverability": 0.6,
+      "feel": 0.85,
+      "stability": 0.8,
+      "comfort": 0.7,
+      "durability": 0.8,
+      "forgiveness": 0.5,
+      "description": "Mais perdão com o lendário feel da linha Prestige, ideal para jogadores de todo o tipo de quadra.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 40,
+      "name": "Percept 97D",
+      "brand": "Yonex",
+      "weight": 320,
+      "balance": "Head-light",
+      "stiffness": 61,
+      "headSize": 97,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.4,
+      "control": 0.9,
+      "spin": 0.6,
+      "maneuverability": 0.6,
+      "feel": 0.85,
+      "stability": 0.85,
+      "comfort": 0.75,
+      "durability": 0.8,
+      "forgiveness": 0.3,
+      "description": "Precisão e feel em um pacote denso, com o flex ideal para controle.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 41,
+      "name": "Percept 97",
+      "brand": "Yonex",
+      "weight": 310,
+      "balance": "Head-light",
+      "stiffness": 62,
+      "headSize": 97,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "All-court",
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.5,
+      "control": 0.85,
+      "spin": 0.6,
+      "maneuverability": 0.65,
+      "feel": 0.8,
+      "stability": 0.8,
+      "comfort": 0.7,
+      "durability": 0.8,
+      "forgiveness": 0.4,
+      "description": "Uma raquete de controle versátil com sensibilidade excepcional para jogadores de todos os estilos.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 42,
+      "name": "Percept 100",
+      "brand": "Yonex",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 63,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "All-court",
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.6,
+      "control": 0.75,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.75,
+      "stability": 0.7,
+      "comfort": 0.7,
+      "durability": 0.75,
+      "forgiveness": 0.6,
+      "description": "Combina controle com um sweetspot maior, ideal para uma jogabilidade flexível.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 43,
+      "name": "Phantom 100X 18x20",
+      "brand": "Prince",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 58,
+      "headSize": 100,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Feel",
+        "Flat"
+      ],
+      "priceRange": 3,
+      "power": 0.4,
+      "control": 0.9,
+      "spin": 0.5,
+      "maneuverability": 0.6,
+      "feel": 0.95,
+      "stability": 0.7,
+      "comfort": 0.9,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Excepcional sensibilidade e conforto com controle para o jogador que gosta de 'sentir' a bola.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 44,
+      "name": "Phantom 100X 16x18",
+      "brand": "Prince",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 59,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Spin",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.5,
+      "control": 0.85,
+      "spin": 0.75,
+      "maneuverability": 0.6,
+      "feel": 0.9,
+      "stability": 0.7,
+      "comfort": 0.85,
+      "durability": 0.7,
+      "forgiveness": 0.65,
+      "description": "A Phantom mais versátil, combinando feel com acesso fácil ao spin e conforto.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 45,
+      "name": "TF-40 315 18x20",
+      "brand": "Tecnifibre",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 63,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat"
+      ],
+      "priceRange": 3,
+      "power": 0.45,
+      "control": 0.9,
+      "spin": 0.5,
+      "maneuverability": 0.55,
+      "feel": 0.85,
+      "stability": 0.85,
+      "comfort": 0.7,
+      "durability": 0.8,
+      "forgiveness": 0.4,
+      "description": "Controle absoluto e feel sólido para jogadores que buscam precisão cirúrgica.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 46,
+      "name": "TF-40 305 16x19",
+      "brand": "Tecnifibre",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 64,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Spin"
+      ],
+      "priceRange": 3,
+      "power": 0.5,
+      "control": 0.85,
+      "spin": 0.75,
+      "maneuverability": 0.6,
+      "feel": 0.8,
+      "stability": 0.8,
+      "comfort": 0.7,
+      "durability": 0.8,
+      "forgiveness": 0.5,
+      "description": "Oferece um bom blend de controle e acesso ao spin, com a conhecida estabilidade da linha TF-40.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 47,
+      "name": "CX 200 Tour 18x20",
+      "brand": "Dunlop",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 61,
+      "headSize": 95,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat"
+      ],
+      "priceRange": 2,
+      "power": 0.4,
+      "control": 0.9,
+      "spin": 0.5,
+      "maneuverability": 0.55,
+      "feel": 0.85,
+      "stability": 0.85,
+      "comfort": 0.75,
+      "durability": 0.8,
+      "forgiveness": 0.3,
+      "description": "Precisão e feedback para o tenista experiente que busca controle máximo.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 48,
+      "name": "CX 200",
+      "brand": "Dunlop",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 62,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.5,
+      "control": 0.85,
+      "spin": 0.6,
+      "maneuverability": 0.6,
+      "feel": 0.8,
+      "stability": 0.8,
+      "comfort": 0.7,
+      "durability": 0.8,
+      "forgiveness": 0.5,
+      "description": "Um clássico de controle para jogadores versáteis, com um excelente sweetspot.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 49,
+      "name": "V-Cell 10 320",
+      "brand": "Volkl",
+      "weight": 320,
+      "balance": "Head-light",
+      "stiffness": 66,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat"
+      ],
+      "priceRange": 3,
+      "power": 0.45,
+      "control": 0.85,
+      "spin": 0.5,
+      "maneuverability": 0.5,
+      "feel": 0.8,
+      "stability": 0.9,
+      "comfort": 0.75,
+      "durability": 0.8,
+      "forgiveness": 0.3,
+      "description": "Estabilidade e controle para o jogador de alto nível, com bom conforto de Volkl.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 50,
+      "name": "V-Cell 10 300",
+      "brand": "Volkl",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 67,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.5,
+      "control": 0.8,
+      "spin": 0.6,
+      "maneuverability": 0.65,
+      "feel": 0.75,
+      "stability": 0.8,
+      "comfort": 0.7,
+      "durability": 0.75,
+      "forgiveness": 0.5,
+      "description": "Uma opção de controle mais amigável, com a sensação única e confortável da Volkl.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 51,
+      "name": "Black Ace 98",
+      "brand": "ProKennex",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 63,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.5,
+      "control": 0.8,
+      "spin": 0.6,
+      "maneuverability": 0.7,
+      "feel": 0.85,
+      "stability": 0.7,
+      "comfort": 0.9,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Máximo conforto e proteção para o braço, com bom controle e feel para jogadores avançados.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 52,
+      "name": "Whiteout 305 18x20",
+      "brand": "Solinco",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 66,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Flat"
+      ],
+      "priceRange": 2,
+      "power": 0.5,
+      "control": 0.85,
+      "spin": 0.6,
+      "maneuverability": 0.6,
+      "feel": 0.8,
+      "stability": 0.8,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.4,
+      "description": "Uma raquete focada em controle e precisão, com um feel sólido para golpes fortes.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 53,
+      "name": "Whiteout 305 16x19",
+      "brand": "Solinco",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 66,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Spin"
+      ],
+      "priceRange": 2,
+      "power": 0.6,
+      "control": 0.75,
+      "spin": 0.75,
+      "maneuverability": 0.65,
+      "feel": 0.75,
+      "stability": 0.75,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.5,
+      "description": "Versão mais spin-friendly da Whiteout, mantendo o controle e o feedback.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 54,
+      "name": "L20 97",
+      "brand": "Lacoste",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 63,
+      "headSize": 97,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Feel"
+      ],
+      "priceRange": 3,
+      "power": 0.5,
+      "control": 0.85,
+      "spin": 0.6,
+      "maneuverability": 0.6,
+      "feel": 0.8,
+      "stability": 0.8,
+      "comfort": 0.7,
+      "durability": 0.7,
+      "forgiveness": 0.4,
+      "description": "Uma raquete de controle elegante com um toque clássico e feedback apurado.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 55,
+      "name": "Pure Aero 100 (2024)",
+      "brand": "Babolat",
+      "weight": 300,
+      "balance": "Head-heavy",
+      "stiffness": 69,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Baseline",
+        "Topspin"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.9,
+      "maneuverability": 0.7,
+      "feel": 0.6,
+      "stability": 0.7,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "A Pure Aero é a raquete definitiva para potência e spin, ideal para jogadores de fundo de quadra.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 56,
+      "name": "Pure Aero 98",
+      "brand": "Babolat",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 67,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Aggressive",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.85,
+      "maneuverability": 0.7,
+      "feel": 0.7,
+      "stability": 0.75,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Versão mais controlável da Pure Aero, com excelente spin e feel para o jogo agressivo.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 57,
+      "name": "Pure Aero Team",
+      "brand": "Babolat",
+      "weight": 285,
+      "balance": "Head-heavy",
+      "stiffness": 69,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Baseline"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.85,
+      "maneuverability": 0.8,
+      "feel": 0.6,
+      "stability": 0.6,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.75,
+      "description": "Uma opção mais leve da Pure Aero, ideal para iniciantes e intermediários que buscam spin e potência fácil.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 58,
+      "name": "Pure Aero Lite",
+      "brand": "Babolat",
+      "weight": 270,
+      "balance": "Head-heavy",
+      "stiffness": 68,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.55,
+      "spin": 0.8,
+      "maneuverability": 0.85,
+      "feel": 0.55,
+      "stability": 0.55,
+      "comfort": 0.6,
+      "durability": 0.65,
+      "forgiveness": 0.8,
+      "description": "A raquete mais leve da linha Pure Aero, oferece potência e spin para jogadores em desenvolvimento.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 59,
+      "name": "Shift 99 v1",
+      "brand": "Wilson",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 68,
+      "headSize": 99,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Baseline",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.8,
+      "maneuverability": 0.75,
+      "feel": 0.7,
+      "stability": 0.7,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Uma raquete moderna para spin e potência, com ótima sensação de conexão com a bola.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 60,
+      "name": "Shift 99L v1",
+      "brand": "Wilson",
+      "weight": 285,
+      "balance": "Head-light",
+      "stiffness": 67,
+      "headSize": 99,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.75,
+      "control": 0.65,
+      "spin": 0.8,
+      "maneuverability": 0.8,
+      "feel": 0.65,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Mais leve e manobrável, a Shift 99L é excelente para spin e golpes agressivos.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 61,
+      "name": "Shift 99 Pro v1",
+      "brand": "Wilson",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 68,
+      "headSize": 99,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Heavy Topspin",
+        "Aggressive"
+      ],
+      "priceRange": 3,
+      "power": 0.65,
+      "control": 0.75,
+      "spin": 0.9,
+      "maneuverability": 0.6,
+      "feel": 0.7,
+      "stability": 0.8,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.5,
+      "description": "Para o jogador avançado que busca spin massivo e estabilidade em cada golpe.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 62,
+      "name": "Extreme MP 2024",
+      "brand": "Head",
+      "weight": 300,
+      "balance": "Even",
+      "stiffness": 66,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.8,
+      "maneuverability": 0.75,
+      "feel": 0.65,
+      "stability": 0.7,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Uma raquete de spin e potência versátil para jogadores que atacam com efeito e profundidade.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 63,
+      "name": "Extreme Tour 2024",
+      "brand": "Head",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 65,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Aggressive Topspin",
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.6,
+      "control": 0.8,
+      "spin": 0.85,
+      "maneuverability": 0.7,
+      "feel": 0.7,
+      "stability": 0.75,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.5,
+      "description": "Foco em spin e controle para jogadores avançados, oferecendo precisão e acesso ao efeito.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 64,
+      "name": "Extreme Team L 2024",
+      "brand": "Head",
+      "weight": 275,
+      "balance": "Head-heavy",
+      "stiffness": 67,
+      "headSize": 105,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power"
+      ],
+      "priceRange": 1,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.75,
+      "maneuverability": 0.85,
+      "feel": 0.55,
+      "stability": 0.55,
+      "comfort": 0.7,
+      "durability": 0.65,
+      "forgiveness": 0.8,
+      "description": "Leve e potente, a Extreme Team L é ideal para iniciantes que buscam spin fácil e grande sweetspot.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 65,
+      "name": "VCORE 95",
+      "brand": "Yonex",
+      "weight": 310,
+      "balance": "Head-light",
+      "stiffness": 66,
+      "headSize": 95,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Aggressive"
+      ],
+      "priceRange": 3,
+      "power": 0.6,
+      "control": 0.8,
+      "spin": 0.9,
+      "maneuverability": 0.6,
+      "feel": 0.7,
+      "stability": 0.8,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.4,
+      "description": "Máximo spin e precisão para jogadores avançados que dominam golpes agressivos.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 66,
+      "name": "VCORE 100",
+      "brand": "Yonex",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 66,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.95,
+      "maneuverability": 0.7,
+      "feel": 0.65,
+      "stability": 0.7,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "A rainha do spin da Yonex, com potência controlável e manobrabilidade para o jogo moderno.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 67,
+      "name": "VCORE 100L",
+      "brand": "Yonex",
+      "weight": 280,
+      "balance": "Even",
+      "stiffness": 66,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.75,
+      "control": 0.65,
+      "spin": 0.9,
+      "maneuverability": 0.8,
+      "feel": 0.6,
+      "stability": 0.6,
+      "comfort": 0.65,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Mais leve e com acesso fácil ao spin, ideal para jogadores em desenvolvimento.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 68,
+      "name": "Ripstick 300",
+      "brand": "Prince",
+      "weight": 300,
+      "balance": "Even",
+      "stiffness": 71,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "Topspin",
+        "Baseline"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.6,
+      "spin": 0.8,
+      "maneuverability": 0.7,
+      "feel": 0.55,
+      "stability": 0.7,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.75,
+      "description": "Potência explosiva e spin fácil, com um aro rígido que impulsiona a bola.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 69,
+      "name": "Ripstick 280",
+      "brand": "Prince",
+      "weight": 280,
+      "balance": "Head-heavy",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.9,
+      "control": 0.55,
+      "spin": 0.8,
+      "maneuverability": 0.75,
+      "feel": 0.5,
+      "stability": 0.6,
+      "comfort": 0.6,
+      "durability": 0.65,
+      "forgiveness": 0.8,
+      "description": "Leve e fácil de manobrar, a Ripstick 280 oferece potência e spin para iniciantes.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 70,
+      "name": "T-Fight 300 ISOFLEX",
+      "brand": "Tecnifibre",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 65,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "All-court",
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.6,
+      "control": 0.75,
+      "spin": 0.75,
+      "maneuverability": 0.7,
+      "feel": 0.7,
+      "stability": 0.75,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Equilíbrio entre potência e controle com ótimo acesso ao spin, ideal para o jogo moderno.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 71,
+      "name": "SX 300 Tour",
+      "brand": "Dunlop",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 68,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Heavy Topspin",
+        "Aggressive"
+      ],
+      "priceRange": 2,
+      "power": 0.65,
+      "control": 0.75,
+      "spin": 0.9,
+      "maneuverability": 0.65,
+      "feel": 0.65,
+      "stability": 0.75,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.5,
+      "description": "Máquina de spin com controle para jogadores avançados que dominam o topspin pesado.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 72,
+      "name": "SX 300 LS",
+      "brand": "Dunlop",
+      "weight": 285,
+      "balance": "Head-light",
+      "stiffness": 67,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.75,
+      "control": 0.65,
+      "spin": 0.85,
+      "maneuverability": 0.75,
+      "feel": 0.6,
+      "stability": 0.6,
+      "comfort": 0.65,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Versão mais leve da SX 300, com fácil acesso ao spin e potência para iniciantes.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 73,
+      "name": "V-Cell 8 315",
+      "brand": "Volkl",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 68,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power",
+        "Baseline"
+      ],
+      "priceRange": 3,
+      "power": 0.75,
+      "control": 0.7,
+      "spin": 0.8,
+      "maneuverability": 0.6,
+      "feel": 0.6,
+      "stability": 0.8,
+      "comfort": 0.7,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Potência e spin com a sensação única de conforto da Volkl para jogadores agressivos.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 74,
+      "name": "V-Cell 8 285",
+      "brand": "Volkl",
+      "weight": 285,
+      "balance": "Even",
+      "stiffness": 67,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.65,
+      "spin": 0.75,
+      "maneuverability": 0.7,
+      "feel": 0.6,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Uma raquete leve e amigável para o braço, com fácil acesso à potência e spin.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 75,
+      "name": "Ki Q+ 5 300",
+      "brand": "ProKennex",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 66,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Comfort",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.8,
+      "maneuverability": 0.7,
+      "feel": 0.75,
+      "stability": 0.7,
+      "comfort": 0.85,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Conforto líder de classe com boa potência e spin, ideal para jogadores com histórico de lesões.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 76,
+      "name": "Blackout 285",
+      "brand": "Solinco",
+      "weight": 285,
+      "balance": "Even",
+      "stiffness": 69,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Topspin"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.75,
+      "maneuverability": 0.75,
+      "feel": 0.6,
+      "stability": 0.6,
+      "comfort": 0.6,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Potência explosiva em um pacote leve, com acesso fácil ao spin para o jogador agressivo.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 77,
+      "name": "Blackout 330",
+      "brand": "Solinco",
+      "weight": 330,
+      "balance": "Head-light",
+      "stiffness": 70,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Heavy Topspin",
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.85,
+      "maneuverability": 0.55,
+      "feel": 0.6,
+      "stability": 0.9,
+      "comfort": 0.55,
+      "durability": 0.75,
+      "forgiveness": 0.4,
+      "description": "Estabilidade e spin para jogadores avançados que geram muita velocidade na bola.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 78,
+      "name": "Flow Spin 100",
+      "brand": "Lacoste",
+      "weight": 290,
+      "balance": "Head-heavy",
+      "stiffness": 68,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Topspin",
+        "Power",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.75,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.65,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Leveza e facilidade de spin e potência, com o conforto característico da Lacoste.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 79,
+      "name": "Pure Drive 98",
+      "brand": "Babolat",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 70,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.8,
+      "control": 0.65,
+      "spin": 0.75,
+      "maneuverability": 0.65,
+      "feel": 0.55,
+      "stability": 0.7,
+      "comfort": 0.55,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Mais controle para a lendária linha Pure Drive, ideal para jogadores agressivos que buscam potência.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 80,
+      "name": "Pure Drive Team",
+      "brand": "Babolat",
+      "weight": 285,
+      "balance": "Even",
+      "stiffness": 71,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Baseline"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.5,
+      "stability": 0.6,
+      "comfort": 0.55,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Uma opção mais leve e fácil de manobrar da Pure Drive, com potência e spin para jogadores em desenvolvimento.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 81,
+      "name": "Pure Drive Lite",
+      "brand": "Babolat",
+      "weight": 270,
+      "balance": "Head-heavy",
+      "stiffness": 71,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner"
+      ],
+      "playStyle": [
+        "Power",
+        "Easy Swing"
+      ],
+      "priceRange": 2,
+      "power": 0.9,
+      "control": 0.5,
+      "spin": 0.7,
+      "maneuverability": 0.8,
+      "feel": 0.45,
+      "stability": 0.55,
+      "comfort": 0.5,
+      "durability": 0.6,
+      "forgiveness": 0.8,
+      "description": "A Pure Drive mais leve, oferece potência máxima e facilidade de swing para iniciantes.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 82,
+      "name": "Ultra 100 v4",
+      "brand": "Wilson",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 71,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "Depth",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.6,
+      "stability": 0.7,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Potência fácil e conforto para uma ampla gama de jogadores, ideal para gerar velocidade de bola.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 83,
+      "name": "Ultra 100L v4",
+      "brand": "Wilson",
+      "weight": 280,
+      "balance": "Even",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Easy Swing"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.55,
+      "stability": 0.6,
+      "comfort": 0.65,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Versão mais leve da Ultra, oferece potência e conforto para iniciantes e intermediários.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 84,
+      "name": "Ultra 108 v4",
+      "brand": "Wilson",
+      "weight": 280,
+      "balance": "Head-heavy",
+      "stiffness": 70,
+      "headSize": 108,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Comfort",
+        "Forgiveness"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.55,
+      "spin": 0.65,
+      "maneuverability": 0.8,
+      "feel": 0.5,
+      "stability": 0.55,
+      "comfort": 0.7,
+      "durability": 0.6,
+      "forgiveness": 0.9,
+      "description": "Grande sweetspot e potência para o máximo de perdão e conforto em cada golpe.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 85,
+      "name": "Instinct MP 2024",
+      "brand": "Head",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 69,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.65,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.6,
+      "stability": 0.7,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Potência e versatilidade em um design amigável, ideal para jogadores de todos os níveis.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 86,
+      "name": "Instinct Team 2024",
+      "brand": "Head",
+      "weight": 285,
+      "balance": "Head-heavy",
+      "stiffness": 70,
+      "headSize": 105,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Comfort"
+      ],
+      "priceRange": 1,
+      "power": 0.85,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.55,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.65,
+      "forgiveness": 0.8,
+      "description": "Leveza e grande sweetspot para potência e conforto, ótima para iniciantes.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 87,
+      "name": "EZONE 98 (2024)",
+      "brand": "Yonex",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 65,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.75,
+      "control": 0.7,
+      "spin": 0.75,
+      "maneuverability": 0.65,
+      "feel": 0.65,
+      "stability": 0.75,
+      "comfort": 0.65,
+      "durability": 0.7,
+      "forgiveness": 0.6,
+      "description": "Uma EZONE mais orientada para controle, mantendo a potência e a sensação de bola da linha.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 88,
+      "name": "EZONE 100L (2024)",
+      "brand": "Yonex",
+      "weight": 285,
+      "balance": "Even",
+      "stiffness": 66,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.65,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.6,
+      "stability": 0.65,
+      "comfort": 0.7,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Leve e fácil de usar, oferece potência e conforto para jogadores em busca de um jogo fácil.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 89,
+      "name": "EZONE 108 (2024)",
+      "brand": "Yonex",
+      "weight": 285,
+      "balance": "Head-heavy",
+      "stiffness": 67,
+      "headSize": 108,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Forgiveness",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.5,
+      "spin": 0.65,
+      "maneuverability": 0.8,
+      "feel": 0.55,
+      "stability": 0.55,
+      "comfort": 0.75,
+      "durability": 0.6,
+      "forgiveness": 0.9,
+      "description": "Máximo perdão e potência em um aro superdimensionado, ideal para iniciantes e conforto.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 90,
+      "name": "Beast 100 (300 g)",
+      "brand": "Prince",
+      "weight": 300,
+      "balance": "Even",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "Topspin",
+        "Baseline"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.75,
+      "maneuverability": 0.7,
+      "feel": 0.55,
+      "stability": 0.7,
+      "comfort": 0.55,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Potência e spin para o jogo agressivo, com um aro estável para golpes fortes.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 91,
+      "name": "Beast 100 (280 g)",
+      "brand": "Prince",
+      "weight": 280,
+      "balance": "Head-heavy",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Easy Swing"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.55,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.5,
+      "stability": 0.6,
+      "comfort": 0.55,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Versão mais leve da Beast, oferece potência e facilidade de swing para iniciantes.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 92,
+      "name": "TF-X1 315",
+      "brand": "Tecnifibre",
+      "weight": 315,
+      "balance": "Head-light",
+      "stiffness": 72,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "Precision",
+        "Flat"
+      ],
+      "priceRange": 3,
+      "power": 0.75,
+      "control": 0.7,
+      "spin": 0.7,
+      "maneuverability": 0.6,
+      "feel": 0.6,
+      "stability": 0.8,
+      "comfort": 0.55,
+      "durability": 0.75,
+      "forgiveness": 0.5,
+      "description": "Potência com um toque de precisão, ideal para jogadores que buscam um combo poderoso.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 93,
+      "name": "TF-X1 285",
+      "brand": "Tecnifibre",
+      "weight": 285,
+      "balance": "Even",
+      "stiffness": 71,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.55,
+      "stability": 0.65,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Leve e fácil de usar, oferece potência e conforto para iniciantes e intermediários.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 94,
+      "name": "FX 500",
+      "brand": "Dunlop",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.65,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.55,
+      "stability": 0.7,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Potência fácil e versatilidade para uma ampla gama de jogadores, com ótimo feedback.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 95,
+      "name": "FX 500 LS",
+      "brand": "Dunlop",
+      "weight": 285,
+      "balance": "Head-light",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.5,
+      "stability": 0.6,
+      "comfort": 0.6,
+      "durability": 0.65,
+      "forgiveness": 0.75,
+      "description": "Leve e com acesso fácil à potência, a FX 500 LS é ideal para jogadores iniciantes.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 96,
+      "name": "FX 700",
+      "brand": "Dunlop",
+      "weight": 265,
+      "balance": "Head-heavy",
+      "stiffness": 71,
+      "headSize": 107,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Comfort-seeker"
+      ],
+      "playStyle": [
+        "Power",
+        "Forgiveness"
+      ],
+      "priceRange": 2,
+      "power": 0.9,
+      "control": 0.5,
+      "spin": 0.65,
+      "maneuverability": 0.8,
+      "feel": 0.45,
+      "stability": 0.5,
+      "comfort": 0.7,
+      "durability": 0.6,
+      "forgiveness": 0.9,
+      "description": "Potência e perdão máximos para iniciantes ou jogadores que buscam o máximo de conforto.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 97,
+      "name": "V-Cell 6",
+      "brand": "Volkl",
+      "weight": 275,
+      "balance": "Head-heavy",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.75,
+      "feel": 0.55,
+      "stability": 0.6,
+      "comfort": 0.75,
+      "durability": 0.65,
+      "forgiveness": 0.8,
+      "description": "Uma raquete leve e potente com o conforto e o feel característicos da Volkl.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 98,
+      "name": "Ki 15 300",
+      "brand": "ProKennex",
+      "weight": 300,
+      "balance": "Head-heavy",
+      "stiffness": 69,
+      "headSize": 105,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.7,
+      "maneuverability": 0.7,
+      "feel": 0.65,
+      "stability": 0.65,
+      "comfort": 0.85,
+      "durability": 0.7,
+      "forgiveness": 0.8,
+      "description": "Potência e conforto superiores, ideal para jogadores que buscam um sweetspot grande e proteção para o braço.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 99,
+      "name": "Blackout 300",
+      "brand": "Solinco",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 70,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "Topspin"
+      ],
+      "priceRange": 2,
+      "power": 0.8,
+      "control": 0.65,
+      "spin": 0.75,
+      "maneuverability": 0.7,
+      "feel": 0.6,
+      "stability": 0.7,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Potência explosiva com bom acesso ao spin, para jogadores que buscam um jogo agressivo.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 100,
+      "name": "Flow Elite 102",
+      "brand": "Lacoste",
+      "weight": 285,
+      "balance": "Head-heavy",
+      "stiffness": 70,
+      "headSize": 102,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Power",
+        "Comfort"
+      ],
+      "priceRange": 2,
+      "power": 0.85,
+      "control": 0.55,
+      "spin": 0.65,
+      "maneuverability": 0.75,
+      "feel": 0.5,
+      "stability": 0.6,
+      "comfort": 0.75,
+      "durability": 0.6,
+      "forgiveness": 0.85,
+      "description": "Grande sweetspot e potência fácil, com o conforto e o estilo da Lacoste para iniciantes.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 101,
+      "name": "Pure Aero Junior 26",
+      "brand": "Babolat",
+      "weight": 250,
+      "balance": "Head-heavy",
+      "stiffness": 67,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Junior"
+      ],
+      "playStyle": [
+        "Baseline",
+        "Topspin"
+      ],
+      "priceRange": 1,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.8,
+      "maneuverability": 0.9,
+      "feel": 0.5,
+      "stability": 0.5,
+      "comfort": 0.7,
+      "durability": 0.7,
+      "forgiveness": 0.8,
+      "description": "Versão junior da popular Pure Aero, ideal para jovens que buscam spin e potência.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 102,
+      "name": "Pro Staff v14 Junior 26",
+      "brand": "Wilson",
+      "weight": 250,
+      "balance": "Head-light",
+      "stiffness": 64,
+      "headSize": 100,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Junior"
+      ],
+      "playStyle": [
+        "All-court",
+        "Control"
+      ],
+      "priceRange": 2,
+      "power": 0.6,
+      "control": 0.8,
+      "spin": 0.6,
+      "maneuverability": 0.8,
+      "feel": 0.7,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Raquetes junior com foco em controle, perfeitas para jovens talentos em desenvolvimento.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 103,
+      "name": "Speed Junior 26 2024",
+      "brand": "Head",
+      "weight": 250,
+      "balance": "Even",
+      "stiffness": 63,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Junior"
+      ],
+      "playStyle": [
+        "All-court"
+      ],
+      "priceRange": 1,
+      "power": 0.7,
+      "control": 0.7,
+      "spin": 0.7,
+      "maneuverability": 0.8,
+      "feel": 0.6,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.7,
+      "forgiveness": 0.75,
+      "description": "Versátil e manobrável, a Speed Junior 26 é uma ótima opção all-around para jovens jogadores.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 104,
+      "name": "EZONE Junior 26",
+      "brand": "Yonex",
+      "weight": 250,
+      "balance": "Even",
+      "stiffness": 64,
+      "headSize": 102,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Junior"
+      ],
+      "playStyle": [
+        "Power",
+        "All-court"
+      ],
+      "priceRange": 2,
+      "power": 0.75,
+      "control": 0.65,
+      "spin": 0.7,
+      "maneuverability": 0.8,
+      "feel": 0.6,
+      "stability": 0.6,
+      "comfort": 0.7,
+      "durability": 0.7,
+      "forgiveness": 0.8,
+      "description": "Potência e perdão para jovens jogadores, com o formato de cabeça isométrica da Yonex.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 105,
+      "name": "Ripstick Junior 26",
+      "brand": "Prince",
+      "weight": 250,
+      "balance": "Head-heavy",
+      "stiffness": 68,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Junior"
+      ],
+      "playStyle": [
+        "Power",
+        "Spin"
+      ],
+      "priceRange": 1,
+      "power": 0.8,
+      "control": 0.6,
+      "spin": 0.75,
+      "maneuverability": 0.85,
+      "feel": 0.5,
+      "stability": 0.55,
+      "comfort": 0.65,
+      "durability": 0.65,
+      "forgiveness": 0.8,
+      "description": "Versão junior da potente Ripstick, ideal para jovens que buscam spin e potência explosiva.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 106,
+      "name": "Clash 100 v3",
+      "brand": "Wilson",
+      "weight": 295,
+      "balance": "Even",
+      "stiffness": 60,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "All-court",
+        "Comfort",
+        "Spin"
+      ],
+      "priceRange": 3,
+      "power": 0.75,
+      "control": 0.7,
+      "spin": 0.8,
+      "maneuverability": 0.8,
+      "feel": 0.8,
+      "stability": 0.7,
+      "comfort": 0.9,
+      "durability": 0.7,
+      "forgiveness": 0.8,
+      "description": "Refinada com bend flex v2 que maximiza conforto e spin mantendo explosão de bola.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 111,
+      "name": "Clash 100L v3",
+      "brand": "Wilson",
+      "weight": 280,
+      "balance": "Even",
+      "stiffness": 58,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Beginner",
+        "Intermediate"
+      ],
+      "playStyle": [
+        "Comfort",
+        "All-court",
+        "Spin"
+      ],
+      "priceRange": 3,
+      "power": 0.7,
+      "control": 0.65,
+      "spin": 0.8,
+      "maneuverability": 0.85,
+      "feel": 0.8,
+      "stability": 0.6,
+      "comfort": 0.95,
+      "durability": 0.65,
+      "forgiveness": 0.85,
+      "description": "Versão leve da Clash v3 com máximo conforto e facilidade de manobra.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 107,
+      "name": "EZONE 100 V8",
+      "brand": "Yonex",
+      "weight": 305,
+      "balance": "Even",
+      "stiffness": 59,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "All-court",
+        "Power",
+        "Spin"
+      ],
+      "priceRange": 3,
+      "power": 0.75,
+      "control": 0.7,
+      "spin": 0.8,
+      "maneuverability": 0.7,
+      "feel": 0.8,
+      "stability": 0.75,
+      "comfort": 0.85,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "8ª geração da EZONE com aro quadrado, maior sweet‑spot e sensação amortecida premium.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 112,
+      "name": "EZONE 98 V8",
+      "brand": "Yonex",
+      "weight": 330,
+      "balance": "Head-light",
+      "stiffness": 62,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Spin"
+      ],
+      "priceRange": 3,
+      "power": 0.7,
+      "control": 0.85,
+      "spin": 0.75,
+      "maneuverability": 0.6,
+      "feel": 0.8,
+      "stability": 0.85,
+      "comfort": 0.8,
+      "durability": 0.75,
+      "forgiveness": 0.6,
+      "description": "Top do conforto na V8, equilibrando potência e precisão num aro compacto.",
+      "icon": "icons/racket1.svg"
+    },
+    {
+      "id": 108,
+      "name": "Pure Drive 2025",
+      "brand": "Babolat",
+      "weight": 300,
+      "balance": "Head-light",
+      "stiffness": 68,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "Power",
+        "Baseline"
+      ],
+      "priceRange": 3,
+      "power": 0.85,
+      "control": 0.65,
+      "spin": 0.75,
+      "maneuverability": 0.7,
+      "feel": 0.7,
+      "stability": 0.7,
+      "comfort": 0.8,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Atualização com NF2 Tech 2.0: confiança pura com potência clássica e vibração suave.",
+      "icon": "icons/racket2.svg"
+    },
+    {
+      "id": 113,
+      "name": "Pure Drive 98 2025",
+      "brand": "Babolat",
+      "weight": 310,
+      "balance": "Head-light",
+      "stiffness": 67,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "Power"
+      ],
+      "priceRange": 3,
+      "power": 0.8,
+      "control": 0.7,
+      "spin": 0.75,
+      "maneuverability": 0.65,
+      "feel": 0.75,
+      "stability": 0.75,
+      "comfort": 0.8,
+      "durability": 0.7,
+      "forgiveness": 0.65,
+      "description": "Box beam clássico na cabeça 98 combinado com NF2 Tech para sensação refinada.",
+      "icon": "icons/racket3.svg"
+    },
+    {
+      "id": 109,
+      "name": "TFight 305S 2025",
+      "brand": "Tecnifibre",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 64,
+      "headSize": 98,
+      "stringPattern": "Closed",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Control",
+        "All-court"
+      ],
+      "priceRange": 3,
+      "power": 0.7,
+      "control": 0.85,
+      "spin": 0.75,
+      "maneuverability": 0.6,
+      "feel": 0.85,
+      "stability": 0.8,
+      "comfort": 0.8,
+      "durability": 0.8,
+      "forgiveness": 0.6,
+      "description": "TFight mais sólida, precisão no flat e feel puro com agressividade moderna.",
+      "icon": "icons/racket4.svg"
+    },
+    {
+      "id": 110,
+      "name": "Gravity Tour 98 2025",
+      "brand": "Head",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 63,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "All-court",
+        "Control"
+      ],
+      "priceRange": 3,
+      "power": 0.7,
+      "control": 0.85,
+      "spin": 0.75,
+      "maneuverability": 0.65,
+      "feel": 0.85,
+      "stability": 0.8,
+      "comfort": 0.85,
+      "durability": 0.8,
+      "forgiveness": 0.7,
+      "description": "Auxetic 2.0 + aro 98: giro perigoso entre precisão, conforto e sensibilidade premium.",
+      "icon": "icons/racket5.svg"
+    },
+    {
+      "id": 114,
+      "name": "Radical MP 2025",
+      "brand": "Head",
+      "weight": 295,
+      "balance": "Even",
+      "stiffness": 65,
+      "headSize": 100,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Intermediate",
+        "Advanced"
+      ],
+      "playStyle": [
+        "All-court",
+        "Power"
+      ],
+      "priceRange": 2,
+      "power": 0.75,
+      "control": 0.7,
+      "spin": 0.75,
+      "maneuverability": 0.75,
+      "feel": 0.7,
+      "stability": 0.75,
+      "comfort": 0.75,
+      "durability": 0.7,
+      "forgiveness": 0.7,
+      "description": "Atualização Radical com Auxetic 2.0: conforto e estabilidade para jogo agressivo.",
+      "icon": "icons/racket6.svg"
+    },
+    {
+      "id": 115,
+      "name": "SX 300 Tour 2025",
+      "brand": "Dunlop",
+      "weight": 305,
+      "balance": "Head-light",
+      "stiffness": 68,
+      "headSize": 98,
+      "stringPattern": "Open",
+      "playerLevel": [
+        "Advanced"
+      ],
+      "playStyle": [
+        "Heavy Topspin",
+        "Aggressive"
+      ],
+      "priceRange": 2,
+      "power": 0.65,
+      "control": 0.75,
+      "spin": 0.9,
+      "maneuverability": 0.65,
+      "feel": 0.65,
+      "stability": 0.75,
+      "comfort": 0.6,
+      "durability": 0.7,
+      "forgiveness": 0.5,
+      "description": "Atualização da SX 300: spin pesado com controle cirúrgico para jogadores avançados.",
+      "icon": "icons/racket1.svg"
+    }
+  ]
+}
