@@ -1,0 +1,195 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ============================================================
+   DESIGN SYSTEM: "Dynamic Court"
+   Deep navy base · Vivid green primary · Amber accents
+   Outfit (700/800) headings + Inter (400/500) body
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Navy dark theme as default */
+  --background: oklch(0.11 0.025 250);
+  --foreground: oklch(0.96 0.005 240);
+
+  --card: oklch(0.155 0.025 250);
+  --card-foreground: oklch(0.96 0.005 240);
+
+  --popover: oklch(0.155 0.025 250);
+  --popover-foreground: oklch(0.96 0.005 240);
+
+  /* Vivid green primary */
+  --primary: oklch(0.65 0.2 145);
+  --primary-foreground: oklch(0.1 0.02 145);
+
+  --secondary: oklch(0.2 0.025 250);
+  --secondary-foreground: oklch(0.85 0.01 240);
+
+  --muted: oklch(0.2 0.02 250);
+  --muted-foreground: oklch(0.6 0.02 240);
+
+  /* Amber accent */
+  --accent: oklch(0.78 0.18 75);
+  --accent-foreground: oklch(0.1 0.02 75);
+
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 12%);
+  --ring: oklch(0.65 0.2 145);
+
+  --chart-1: oklch(0.65 0.2 145);
+  --chart-2: oklch(0.78 0.18 75);
+  --chart-3: oklch(0.55 0.18 220);
+  --chart-4: oklch(0.7 0.15 30);
+  --chart-5: oklch(0.6 0.2 300);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+
+  /* Custom score ring animation */
+  .score-ring-fill {
+    transition: stroke-dashoffset 1.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  /* Attribute bar */
+  .attr-bar-fill {
+    transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  /* Glass card */
+  .glass-card {
+    background: oklch(1 0 0 / 5%);
+    backdrop-filter: blur(12px);
+    border: 1px solid oklch(1 0 0 / 10%);
+  }
+
+  /* Custom range input */
+  input[type='range'] {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 6px;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+  }
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #22c55e;
+    cursor: pointer;
+    border: 2px solid #0A1628;
+    box-shadow: 0 0 8px rgba(34,197,94,0.5);
+    transition: transform 0.15s;
+  }
+  input[type='range']::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+  }
+  input[type='range']::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #22c55e;
+    cursor: pointer;
+    border: 2px solid #0A1628;
+    box-shadow: 0 0 8px rgba(34,197,94,0.5);
+  }
+
+  /* Green glow button */
+  .btn-glow {
+    box-shadow: 0 0 20px oklch(0.65 0.2 145 / 40%);
+  }
+  .btn-glow:hover {
+    box-shadow: 0 0 32px oklch(0.65 0.2 145 / 60%);
+  }
+}
